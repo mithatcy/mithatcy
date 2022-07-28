@@ -67,7 +67,7 @@ RoleGuard.on("message", async (message) => {
                 dynamic: true
             }))
             .setTimestamp()
-            .setFooter("Owsla Guard - FerhatAYDN")
+            .setFooter("mithat Guard")
         let sec = args[0];
         if (!sec) return message.reply(`**Doğru Kullanım**: **!güvenli ${["full", "rol&kanal", "rol", "kanal", "ban&kick", "bot", "chat","grol"].map(x => `\`${x}\``).join(" - ")}**`);
 
@@ -563,7 +563,7 @@ RoleGuard.on("roleCreate", async (role) => {
         roleCreateLimit[entry.executor.id] = 0;
         cezaVer(RoleGuard, entry.executor.id, "jail");
         role.delete({
-            reason: "Owsla Guard"
+            reason: "mithat Guard"
         })
         return sendLog(`**${entry.executor.tag}** (${entry.executor.id}) adlı üye ${Config.Limit.RoleCreate} veya daha fazla rol açtı limiti doldurduğu için jail'e düştü`);
     };
@@ -1274,7 +1274,7 @@ async function cezaVer(test, kisiID, tur) {
     if (!MEMBER) return;
     if (tur == "jail") return MEMBER.roles.cache.has(Config.Booster) ? MEMBER.roles.set([Config.Booster, Config.Jail]) : MEMBER.roles.set([Config.Jail]).catch()
     if (tur == "ban") return MEMBER.ban({
-        reason: "Owsla Guard"
+        reason: "mithat Guard"
     }).catch(console.error);
     if (tur == "kick") return MEMBER.kick().catch(console.error);;
 };
