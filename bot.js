@@ -18,7 +18,7 @@ const moment = require("moment");
 
 const Guards = [];
 
-//#region Rol Koruma
+//# Rol Koruma
 const RoleGuard = new Client();
 
 RoleGuard.on("ready", async () => {
