@@ -1,4 +1,5 @@
 # Guard botu
+* paylaşmayın mit lisansı var saygılar sevgiler kullanın
 
 # Kurulum
 * config dolur yeter
