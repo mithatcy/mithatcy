@@ -5,5 +5,5 @@
 * config doldur yeter
 
 # İletişim
-* [Discord Profilim](https://discord.com/users/355742603691687937)
+* [Discord Profilim](https://discord.com/users/403820625530978304)
 * Herhangi bir hata bulmanız durumunda ya da yardım isteyeceğiniz zaman buralardan bana ulaşabilirsiniz.
