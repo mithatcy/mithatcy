@@ -2,7 +2,7 @@
 * paylaşmayın mit lisansı var saygılar sevgiler kullanın
 
 # Kurulum
-* config dolur yeter
+* config doldur yeter
 
 # İletişim
 * [Discord Profilim](https://discord.com/users/355742603691687937)
